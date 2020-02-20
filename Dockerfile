@@ -22,7 +22,7 @@ RUN dotnet build /app/LobsterInk.Adventure.API/LobsterInk.Adventure.API.csproj -
 
 FROM build AS publish
 WORKDIR /app
-# RUN dotnet test /app/Salesforce.Opportunity.Tests.Unit/Salesforce.Opportunity.Tests.Unit.csproj -c Release --logger:trx
+RUN dotnet test /app/LobsterInk.Adventure.Tests.Unit/LobsterInk.Adventure.Tests.Unit.csproj -c Release --logger:trx
 RUN dotnet publish /app/LobsterInk.Adventure.API/LobsterInk.Adventure.API.csproj -c Release -o /app/publish --no-restore
 
 
