@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobsterInk.Adventure.API", "LobsterInk.Adventure.API\LobsterInk.Adventure.API.csproj", "{0EEFB7F0-3900-4FD9-87B6-03000D404AB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobsterInk.Adventure.Application", "LobsterInk.Adventure.Application\LobsterInk.Adventure.Application.csproj", "{38DD017E-7486-4E5D-8FB9-B97EB0C18BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobsterInk.Adventure.Domain", "LobsterInk.Adventure.Domain\LobsterInk.Adventure.Domain.csproj", "{985F6049-D760-4FF4-8BCC-6C890036B465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobsterInk.Adventure.Infrastructure", "LobsterInk.Adventure.Infrastructure\LobsterInk.Adventure.Infrastructure.csproj", "{E52A2731-6FD9-4698-B8E8-502FCA862CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LobsterInk.Adventure.Tests.Unit", "LobsterInk.Adventure.Tests.Unit\LobsterInk.Adventure.Tests.Unit.csproj", "{E46A3BBF-282A-4D85-8769-1175BAE210CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EEFB7F0-3900-4FD9-87B6-03000D404AB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEFB7F0-3900-4FD9-87B6-03000D404AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEFB7F0-3900-4FD9-87B6-03000D404AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEFB7F0-3900-4FD9-87B6-03000D404AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DD017E-7486-4E5D-8FB9-B97EB0C18BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DD017E-7486-4E5D-8FB9-B97EB0C18BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DD017E-7486-4E5D-8FB9-B97EB0C18BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DD017E-7486-4E5D-8FB9-B97EB0C18BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985F6049-D760-4FF4-8BCC-6C890036B465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985F6049-D760-4FF4-8BCC-6C890036B465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985F6049-D760-4FF4-8BCC-6C890036B465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985F6049-D760-4FF4-8BCC-6C890036B465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52A2731-6FD9-4698-B8E8-502FCA862CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52A2731-6FD9-4698-B8E8-502FCA862CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52A2731-6FD9-4698-B8E8-502FCA862CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52A2731-6FD9-4698-B8E8-502FCA862CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E46A3BBF-282A-4D85-8769-1175BAE210CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46A3BBF-282A-4D85-8769-1175BAE210CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46A3BBF-282A-4D85-8769-1175BAE210CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46A3BBF-282A-4D85-8769-1175BAE210CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10E5F24F-7128-481C-8772-5313EE99E6EF}
+	EndGlobalSection
+EndGlobal

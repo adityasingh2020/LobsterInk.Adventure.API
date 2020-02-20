@@ -1,0 +1,81 @@
+﻿{
+  "nodeId": 1,
+  "desc": "Do I want a doughnut ?",
+  "isLastNode": false,
+  "isGameCompleted": false,
+  "action": "",
+  "choices": [
+    {
+      "nodeId": 2,
+      "desc": "Do I deserve it ?",
+      "isLastNode": false,
+      "isGameCompleted": false,
+      "action": "YES",
+      "choices": [
+        {
+          "nodeId": 4,
+          "desc": "Are you sure ?",
+          "isLastNode": false,
+          "isGameCompleted": false,
+          "action": "YES",
+          "choices": [
+            {
+              "nodeId": 6,
+              "desc": "Get it.",
+              "isLastNode": true,
+              "isGameCompleted": true,
+              "action": "YES",
+              "choices": [
+              ]
+            },
+            {
+              "nodeId": 7,
+              "desc": "Do jumping jack first.",
+              "isLastNode": true,
+              "isGameCompleted": false,
+              "action": "NO",
+              "choices": [
+              ]
+            }
+          ]
+        },
+        {
+          "nodeId": 5,
+          "desc": "Is it a good doughnut ?",
+          "isLastNode": false,
+          "isGameCompleted": false,
+          "action": "NO",
+          "choices": [
+            {
+              "nodeId": 8,
+              "desc": "What are you waiting for? Grab it now.",
+              "isLastNode": true,
+              "isGameCompleted": true,
+              "action": "YES",
+              "choices": [
+              ]
+            },
+            {
+              "nodeId": 9,
+              "desc": "Wait till you find a sinful, unforgettable doughnut.",
+              "isLastNode": true,
+              "isGameCompleted": false,
+              "action": "NO",
+              "choices": [
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nodeId": 3,
+      "desc": "Maybe you want an apple ?",
+      "isLastNode": true,
+      "isGameCompleted": false,
+      "action": "NO",
+      "choices": [
+      ]
+    }
+  ]
+}

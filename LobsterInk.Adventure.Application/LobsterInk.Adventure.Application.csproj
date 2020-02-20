@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LobsterInk.Adventure.Domain\LobsterInk.Adventure.Domain.csproj" />
+    <ProjectReference Include="..\LobsterInk.Adventure.Infrastructure\LobsterInk.Adventure.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
